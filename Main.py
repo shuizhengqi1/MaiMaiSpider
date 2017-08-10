@@ -12,8 +12,8 @@ from threading import Thread
 from Queue import Queue
 from db import mmidredis
 from UserInfo import User
-header = {'cookie':'seid=s1502241961732; guid=GxsfBBsTGAQYGAQbGBxWBxgbHhgYGh8ZHxtWHBkEHRkfBUNYS0xLeQoaEwQYGxsZBBoEGhwFT0dFWEJpCgNFQUlPbQpPQUNGCgZmZ35iYQIKHBkEHRkfBV5DYUhPfU9GWlprCgMcdRgbdRobCnIKeWUKSUtnCkZPXkRjChFCWUVeRENJS2cCChoEHwVLRkZDUEVn; koa:sess=eyJ1IjoiMzg1NzE2ODEiLCJzZWNyZXQiOiJ0bU9MTjVxckZtZ3pEWThiUkVMN1ZKMzIiLCJtaWQ0NTY4NzYwIjpmYWxzZSwic3RhdHVzIjp0cnVlLCJfZXhwaXJlIjoxNTAyMzI4NzE0MTgwLCJfbWF4QWdlIjo4NjQwMDAwMH0=; koa:sess.sig=tNhDS6Oilu4N335demLz9vyfXsA; token="NEO7dpqYIh2ZJtXeiF/s4yofvew7csuK9pGfs8rHNLHcf6MZCV5+dEsWHXTNc6nN8CKuzcDfAvoCmBm7+jVysA=="; sessionid=fa757ce58f1d331dbde2ca902b37029e; uid="gF2B3R3Jh2IUTUBxcia+vPAirs3A3wL6ApgZu/o1crA="',
-           'user-agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'}
+
+headers=[]
 queue = []
 mmid = []
 jobquene = Queue()
